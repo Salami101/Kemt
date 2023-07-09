@@ -3,6 +3,33 @@
     padding: 0px;
     border: 0px;
 }
+div.bodyContainer {
+    margin: auto;
+    border: 2px;
+    width: 50%;
+
+}
+div.statsBox {
+    display: flex;
+    flex-flow: row wrap;
+    border-style: dashed;
+    border-width: 1px 2px;
+}
+p.statTxt {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: 20px;
+    margin: 5px 0;
+    
+}
+p.statInt {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+    border-right: 3px double black;
+}
+/*
 .navbarLeft {
     background-color: cornflowerblue;
     display: flex;
@@ -41,7 +68,7 @@
 }
 .bodyDiv {
     width: 100%;
-    height: max-content;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -53,3 +80,4 @@
     width: 100%;
 
 }
+*/
