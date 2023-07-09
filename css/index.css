@@ -3,13 +3,13 @@
     padding: 0px;
     border: 0px;
 }
-div.bodyContainer {
+#bodyContainer {
     margin: auto;
     border: 2px;
     width: 50%;
 
 }
-div.statsBox {
+#statsBox {
     display: flex;
     flex-flow: row wrap;
     border-style: dashed;
@@ -29,6 +29,43 @@ p.statInt {
     margin: 5px;
     border-right: 3px double black;
 }
+#btnGrpPlayer {
+    display: flex;
+    flex-flow: row wrap;
+    border-style: dashed;
+    border-width: 1px 2px;
+}
+.button {
+    background-color: #434141b8;
+    border: none;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.button:hover {
+    background-color: #030202b8;
+    color: antiquewhite;
+    transition-duration: 0.2s;
+}
+button.btnActionsPlayer {
+    
+}
+
+
+
+
+
+
+
+
+
+
 /*
 .navbarLeft {
     background-color: cornflowerblue;
