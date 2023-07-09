@@ -4,9 +4,9 @@
     border: 0px;
 }
 #bodyContainer {
-    margin: auto;
-    border: 2px;
-    width: 50%;
+    margin:auto;
+    border:2px;
+    width:50%;
 
 }
 #statsBox {
@@ -19,7 +19,7 @@ p.statTxt {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 1000;
     font-size: 20px;
-    margin: 5px 0;
+    margin: 5px;
     
 }
 p.statInt {
@@ -53,10 +53,22 @@ p.statInt {
     color: antiquewhite;
     transition-duration: 0.2s;
 }
-button.btnActionsPlayer {
+div.txtLog {
+    border: 1px solid black;
+}
+#txtStory {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 4px;
+    font-weight: 200;
     
 }
-
+#txtQstion {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 4px;
+    font-weight: 600;
+}
 
 
 
