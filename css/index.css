@@ -1,3 +1,6 @@
+html,body {
+    height: 100%;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -7,6 +10,7 @@
     margin:auto;
     border:2px;
     width:50%;
+    height: 100%;
 
 }
 #statsBox {
@@ -53,8 +57,9 @@ p.statInt {
     color: antiquewhite;
     transition-duration: 0.2s;
 }
-div.txtLog {
+div.txtContainer {
     border: 1px solid black;
+    height: 75%;
 }
 #txtStory {
     font-size: 15px;
