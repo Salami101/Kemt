@@ -1,4 +1,8 @@
-html,body {
+body {
+    background-color: rgb(30, 30, 30);
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
     height: 100%;
 }
 * {
@@ -7,17 +11,15 @@ html,body {
     border: 0px;
 }
 #bodyContainer {
-    margin:auto;
-    border:2px;
-    width:50%;
-    height: 100%;
-
+    height: 100vh;
 }
-#statsBox {
+#statsBox, #btnGrpPlayer {
     display: flex;
     flex-flow: row wrap;
-    border-style: dashed;
-    border-width: 1px 2px;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-color: rgb(125, 125, 125);
 }
 p.statTxt {
     font-family: 'Courier New', Courier, monospace;
@@ -31,13 +33,7 @@ p.statInt {
     font-weight: bold;
     font-size: 20px;
     margin: 5px;
-    border-right: 3px double black;
-}
-#btnGrpPlayer {
-    display: flex;
-    flex-flow: row wrap;
-    border-style: dashed;
-    border-width: 1px 2px;
+    border-right: 3px double rgb(125, 125, 125);
 }
 .button {
     background-color: #434141b8;
@@ -57,14 +53,24 @@ p.statInt {
     color: antiquewhite;
     transition-duration: 0.2s;
 }
-div.txtContainer {
-    border: 1px solid black;
-    height: 75%;
+#bodyTxtContainer {
+    margin: auto;
+    border: 3px solid rgb(125, 125, 125);;
+    width: 33%;
+    height: 85%;
+    background-color: inherit;
+
+}
+#txtContainer {
+    border-style: solid;
+    border-width: 1px 0px;
+    border-color: rgb(200, 200, 200);
+    height: 91%;
 }
 #txtStory {
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
-    margin: 4px;
+    margin: 6px;
     font-weight: 200;
     
 }
