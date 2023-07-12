@@ -21,17 +21,17 @@ body {
     border-bottom-width: 1px;
     border-color: rgb(125, 125, 125);
 }
-p.statTxt {
+.statTxt {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 1000;
-    font-size: 20px;
+    font-size: 18px;
     margin: 5px;
     
 }
-p.statInt {
+.statInt {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin: 5px;
     border-right: 3px double rgb(125, 125, 125);
 }
@@ -43,7 +43,7 @@ p.statInt {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 15px;
     margin: 3px;
     cursor: pointer;
     border-radius: 6px;
@@ -54,6 +54,8 @@ p.statInt {
     transition-duration: 0.2s;
 }
 #bodyTxtContainer {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     border: 3px solid rgb(125, 125, 125);;
     width: 33%;
@@ -63,7 +65,6 @@ p.statInt {
 }
 #txtContainer {
     border-style: solid;
-    border-width: 1px 0px;
     border-color: rgb(200, 200, 200);
     height: 91%;
 }
@@ -80,8 +81,12 @@ p.statInt {
     margin: 4px;
     font-weight: 600;
 }
-
-
+.monStats {
+    margin: 2px 0px;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(125, 125, 125);
+}
 
 
 
